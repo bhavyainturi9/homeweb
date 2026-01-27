@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ShoppingBag, Search, User, Heart, Menu, X, ChevronRight } from 'lucide-react';
 
 const ZaraStyleWebsite = () => {
@@ -41,7 +41,7 @@ const ZaraStyleWebsite = () => {
     },
     {
       image: 'https://i.pinimg.com/1200x/5b/9e/7e/5b9e7ee02d9b962dde2c3954eac00282.jpg',
-      title: 'AVANT ORIGINS',
+      title: 'AVANT CLASSICS',
       subtitle: '+ INFO',
       label: ''
     }
@@ -66,8 +66,9 @@ const ZaraStyleWebsite = () => {
 
             <nav className="hidden lg:flex space-x-8">
               <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">DUVET</a>
-              <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">BEDSHEETS</a>
+              <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">STOVE TOPS</a>
               <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">TABLES</a>
+              <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">DINNING</a>
               <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">COLLECTION</a>
             </nav>
 
