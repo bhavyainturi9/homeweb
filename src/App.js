@@ -4,7 +4,7 @@ import { ShoppingBag, Search, User, Heart, Menu, X, ChevronRight } from 'lucide-
 const ZaraStyleWebsite = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
-  const scrollRef = useRef(null);
+  
 
   const heroImages = [
     {
@@ -25,12 +25,12 @@ const ZaraStyleWebsite = () => {
   ];
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroImages.length);
-    }, 4000);
+  const interval = setInterval(() => {
+    setCurrentSlide((prev) => (prev + 1) % heroImages.length);
+  }, 4000);
 
-    return () => clearInterval(interval);
-  }, []);
+  return () => clearInterval(interval);
+}, [heroImages.length]);
 
   const collections = [
     {
