@@ -191,19 +191,19 @@ const ZaraStyleWebsite = () => {
             <div>
               <h4 className="text-sm font-semibold mb-4 tracking-wide">COMPANY</h4>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><a href="#" className="hover:underline">About Us</a></li>
-                <li><a href="#" className="hover:underline">Careers</a></li>
-                <li><a href="#" className="hover:underline">Press</a></li>
-                <li><a href="#" className="hover:underline">Sustainability</a></li>
+                <li><a href="/" className="hover:underline">About Us</a></li>
+                <li><a href="/" className="hover:underline">Careers</a></li>
+                <li><a href="/" className="hover:underline">Press</a></li>
+                <li><a href="/" className="hover:underline">Sustainability</a></li>
               </ul>
             </div>
             <div>
               <h4 className="text-sm font-semibold mb-4 tracking-wide">FOLLOW</h4>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><a href="#" className="hover:underline">Instagram</a></li>
-                <li><a href="#" className="hover:underline">Facebook</a></li>
-                <li><a href="#" className="hover:underline">Twitter</a></li>
-                <li><a href="#" className="hover:underline">Pinterest</a></li>
+                <li><a href="/" className="hover:underline">Instagram</a></li>
+                <li><a href="/" className="hover:underline">Facebook</a></li>
+                <li><a href="/" className="hover:underline">Twitter</a></li>
+                <li><a href="/" className="hover:underline">Pinterest</a></li>
               </ul>
             </div>
             <div>
