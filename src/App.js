@@ -65,10 +65,10 @@ const ZaraStyleWebsite = () => {
             </div>
 
             <nav className="hidden lg:flex space-x-8">
-              <a href="#" className="text-sm tracking-wide hover:text-gray-600 transition">DUVET</a>
-              <a href="#" className="text-sm tracking-wide hover:text-gray-600 transition">BEDSHEETS</a>
-              <a href="#" className="text-sm tracking-wide hover:text-gray-600 transition">TABLES</a>
-              <a href="#" className="text-sm tracking-wide hover:text-gray-600 transition">COLLECTION</a>
+              <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">DUVET</a>
+              <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">BEDSHEETS</a>
+              <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">TABLES</a>
+              <a href="/" className="text-sm tracking-wide hover:text-gray-600 transition">COLLECTION</a>
             </nav>
 
             <div className="flex items-center space-x-4">
@@ -94,10 +94,10 @@ const ZaraStyleWebsite = () => {
         {menuOpen && (
           <div className="lg:hidden border-t border-gray-200 bg-white">
             <nav className="px-4 py-4 space-y-3">
-              <a href="#" className="block text-sm tracking-wide py-2">ESSENTIALS</a>
-              <a href="#" className="block text-sm tracking-wide py-2">BEDSHEETS</a>
-              <a href="#" className="block text-sm tracking-wide py-2">DUVET</a>
-              <a href="#" className="block text-sm tracking-wide py-2">COLLECTION</a>
+              <a href="/" className="block text-sm tracking-wide py-2">ESSENTIALS</a>
+              <a href="/" className="block text-sm tracking-wide py-2">BEDSHEETS</a>
+              <a href="/" className="block text-sm tracking-wide py-2">DUVET</a>
+              <a href="/" className="block text-sm tracking-wide py-2">COLLECTION</a>
             </nav>
           </div>
         )}
@@ -182,10 +182,10 @@ const ZaraStyleWebsite = () => {
             <div>
               <h4 className="text-sm font-semibold mb-4 tracking-wide">HELP</h4>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li><a href="#" className="hover:underline">Customer Service</a></li>
-                <li><a href="#" className="hover:underline">Track Order</a></li>
-                <li><a href="#" className="hover:underline">Returns</a></li>
-                <li><a href="#" className="hover:underline">Size Guide</a></li>
+                <li><a href="/" className="hover:underline">Customer Service</a></li>
+                <li><a href="/" className="hover:underline">Track Order</a></li>
+                <li><a href="/" className="hover:underline">Returns</a></li>
+                <li><a href="/" className="hover:underline">Size Guide</a></li>
               </ul>
             </div>
             <div>
